@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelForge — Crafting Digital Experiences</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ░░░ NAVIGATION ░░░ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-bolt-lightning"></i></span>
+        Pixel<span>Forge</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ░░░ HERO ░░░ -->
+  <section class="hero" id="home">
+    <!-- Decorative orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Grid overlay -->
+    <div class="grid-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fa-solid fa-sparkles"></i>
+        Next-Gen Web Solutions
+      </div>
+
+      <h1 class="hero-heading">
+        Crafting Digital<br />
+        <em>Experiences</em> That<br />
+        Inspire
+      </h1>
+
+      <p class="hero-tagline">
+        PixelForge helps businesses build stunning, fast, and modern web solutions.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#features" class="btn-primary">
+          Get Started
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="#about" class="btn-ghost">
+          Learn More
+        </a>
+      </div>
+
+      <!-- Trust bar -->
+      <div class="trust-bar">
+        <span class="trust-item"><i class="fa-solid fa-circle-check"></i> No-code onboarding</span>
+        <span class="divider">|</span>
+        <span class="trust-item"><i class="fa-solid fa-circle-check"></i> 99.9% uptime SLA</span>
+        <span class="divider">|</span>
+        <span class="trust-item"><i class="fa-solid fa-circle-check"></i> SOC-2 Certified</span>
+      </div>
+    </div>
+
+    <!-- Floating card mockup -->
+    <div class="hero-visual">
+      <div class="mockup-card">
+        <div class="mockup-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <div class="mockup-url">pixelforge.io</div>
+        </div>
+        <div class="mockup-body">
+          <div class="mockup-line wide"></div>
+          <div class="mockup-line medium"></div>
+          <div class="mockup-blocks">
+            <div class="mockup-block blue"></div>
+            <div class="mockup-block purple"></div>
+            <div class="mockup-block teal"></div>
+          </div>
+          <div class="mockup-line short"></div>
+          <div class="mockup-line medium"></div>
+          <div class="mockup-progress">
+            <div class="mockup-bar-fill" style="width:82%"></div>
+          </div>
+          <div class="mockup-stat-row">
+            <div class="mockup-stat">
+              <span class="stat-num">98%</span>
+              <span class="stat-label">Performance</span>
+            </div>
+            <div class="mockup-stat">
+              <span class="stat-num">4.9★</span>
+              <span class="stat-label">Rating</span>
+            </div>
+            <div class="mockup-stat">
+              <span class="stat-num">500+</span>
+              <span class="stat-label">Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating badges -->
+      <div class="float-badge badge-perf">
+        <i class="fa-solid fa-gauge-high"></i>
+        <div><strong>98/100</strong><small>Lighthouse</small></div>
+      </div>
+      <div class="float-badge badge-users">
+        <i class="fa-solid fa-users"></i>
+        <div><strong>500+</strong><small>Happy Clients</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░ STATS STRIP ░░░ -->
+  <section class="stats-strip">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-big">500<span class="accent">+</span></span>
+        <span class="stat-desc">Projects Delivered</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-big">98<span class="accent">%</span></span>
+        <span class="stat-desc">Client Satisfaction</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-big">12<span class="accent">+</span></span>
+        <span class="stat-desc">Industry Awards</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-big">24<span class="accent">/7</span></span>
+        <span class="stat-desc">Expert Support</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░ FEATURES ░░░ -->
+  <section class="features" id="features">
+    <div class="section-container">
+      <div class="section-label">What We Offer</div>
+      <h2 class="section-title">Built for the Modern Web</h2>
+      <p class="section-sub">Everything your business needs to succeed online — engineered with precision and deployed with care.</p>
+
+      <div class="features-grid">
+
+        <article class="feature-card card-blue">
+          <div class="card-icon-wrap">
+            <i class="fa-solid fa-rocket"></i>
+          </div>
+          <h3>Fast Performance</h3>
+          <p>Blazing-fast load times with advanced caching strategies, code splitting, and CDN delivery that keeps users engaged.</p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-up-right"></i></div>
+        </article>
+
+        <article class="feature-card card-purple">
+          <div class="card-icon-wrap">
+            <i class="fa-solid fa-mobile-screen"></i>
+          </div>
+          <h3>Responsive Design</h3>
+          <p>Pixel-perfect layouts that look stunning on every screen — from wearables to widescreen monitors and everything between.</p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-up-right"></i></div>
+        </article>
+
+        <article class="feature-card card-teal">
+          <div class="card-icon-wrap">
+            <i class="fa-solid fa-cloud"></i>
+          </div>
+          <h3>Cloud Integration</h3>
+          <p>Seamlessly integrate with AWS, GCP, and Azure. Auto-scaling infrastructure that grows with your business demands.</p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-up-right"></i></div>
+        </article>
+
+        <article class="feature-card card-indigo">
+          <div class="card-icon-wrap">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Round-the-clock expert support with guaranteed 2-hour response SLA. We're always here when you need us most.</p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-up-right"></i></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░ SERVICES ░░░ -->
+  <section class="services" id="services">
+    <div class="section-container">
+      <div class="section-label">Services</div>
+      <h2 class="section-title">How We Work With You</h2>
+
+      <div class="services-list">
+
+        <div class="service-row">
+          <div class="service-number">01</div>
+          <div class="service-body">
+            <h3>Strategy & Discovery</h3>
+            <p>We begin every project with a deep discovery phase — aligning your vision, audience, and technical requirements before a single line of code is written.</p>
+          </div>
+          <div class="service-tags">
+            <span class="tag">UX Research</span>
+            <span class="tag">Wireframes</span>
+            <span class="tag">Roadmap</span>
+          </div>
+        </div>
+
+        <div class="service-row">
+          <div class="service-number">02</div>
+          <div class="service-body">
+            <h3>Design & Prototyping</h3>
+            <p>Our designers craft high-fidelity prototypes that bring your brand to life, iterating rapidly until every interaction feels effortless.</p>
+          </div>
+          <div class="service-tags">
+            <span class="tag">UI Design</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Prototypes</span>
+          </div>
+        </div>
+
+        <div class="service-row">
+          <div class="service-number">03</div>
+          <div class="service-body">
+            <h3>Development & QA</h3>
+            <p>Full-stack engineers build your product with modern frameworks, rigorous testing pipelines, and performance budgets baked in from day one.</p>
+          </div>
+          <div class="service-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">CI/CD</span>
+          </div>
+        </div>
+
+        <div class="service-row">
+          <div class="service-number">04</div>
+          <div class="service-body">
+            <h3>Launch & Growth</h3>
+            <p>From deployment to post-launch analytics and ongoing optimisation — we stay with you to ensure sustainable, measurable growth.</p>
+          </div>
+          <div class="service-tags">
+            <span class="tag">SEO</span>
+            <span class="tag">Analytics</span>
+            <span class="tag">A/B Testing</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░ ABOUT ░░░ -->
+  <section class="about" id="about">
+    <div class="about-container">
+
+      <div class="about-visual">
+        <div class="about-card main-card">
+          <div class="about-avatar-row">
+            <div class="avatar av1"><i class="fa-solid fa-user"></i></div>
+            <div class="avatar av2"><i class="fa-solid fa-user"></i></div>
+            <div class="avatar av3"><i class="fa-solid fa-user"></i></div>
+            <span class="more-avs">+47</span>
+          </div>
+          <p class="about-quote">"PixelForge transformed our digital presence. Results surpassed every KPI we set."</p>
+          <div class="quote-author">
+            <strong>Sarah Kim</strong>
+            <small>CPO, Nexaura Inc.</small>
+          </div>
+        </div>
+
+        <div class="about-card side-card">
+          <i class="fa-solid fa-trophy fa-2x" style="color:#f59e0b;"></i>
+          <p><strong>Best Tech Startup 2024</strong></p>
+          <small>TechCrunch Disrupt</small>
+        </div>
+
+        <div class="about-icon-grid">
+          <div class="icon-cell"><i class="fa-brands fa-react"></i></div>
+          <div class="icon-cell"><i class="fa-brands fa-node-js"></i></div>
+          <div class="icon-cell"><i class="fa-brands fa-aws"></i></div>
+          <div class="icon-cell"><i class="fa-brands fa-figma"></i></div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <div class="section-label">About PixelForge</div>
+        <h2 class="section-title left">We Build Products<br />People Love</h2>
+        <p>Founded in 2019, PixelForge is a full-service digital product studio on a mission to make the web faster, more beautiful, and more human. We partner with startups and enterprises alike — turning ambitious ideas into polished, high-impact digital products.</p>
+        <p>Our team of 50+ engineers, designers, and strategists operates at the intersection of craft and technology. We believe the best digital products are born when rigorous engineering meets thoughtful design.</p>
+
+        <ul class="about-checklist">
+          <li><i class="fa-solid fa-circle-check"></i> Agile, transparent project delivery</li>
+          <li><i class="fa-solid fa-circle-check"></i> Dedicated teams that feel like your own</li>
+          <li><i class="fa-solid fa-circle-check"></i> Proven frameworks, zero technical debt</li>
+          <li><i class="fa-solid fa-circle-check"></i> Post-launch support and growth partnership</li>
+        </ul>
+
+        <a href="#contact" class="btn-primary">
+          Work With Us <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ░░░ TESTIMONIALS ░░░ -->
+  <section class="testimonials">
+    <div class="section-container">
+      <div class="section-label">Testimonials</div>
+      <h2 class="section-title">Trusted by Builders</h2>
+
+      <div class="testi-grid">
+
+        <div class="testi-card">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"The team at PixelForge delivered a product beyond our expectations. Fast, polished, and rock-solid on mobile."</p>
+          <div class="testi-author">
+            <div class="testi-avatar t1">JL</div>
+            <div><strong>James Liu</strong><small>CTO, Helios Labs</small></div>
+          </div>
+        </div>
+
+        <div class="testi-card featured">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"Working with PixelForge felt like having a world-class product team embedded in our company from day one."</p>
+          <div class="testi-author">
+            <div class="testi-avatar t2">AM</div>
+            <div><strong>Anika Mehta</strong><small>Founder, Vaultly</small></div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"From cloud migration to full redesign — PixelForge handled everything with professionalism and real care."</p>
+          <div class="testi-author">
+            <div class="testi-avatar t3">RC</div>
+            <div><strong>Rafael Costa</strong><small>VP Engineering, Orbis</small></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░░ CONTACT / CTA ░░░ -->
+  <section class="contact-cta" id="contact">
+    <div class="orb orb-c1"></div>
+    <div class="orb orb-c2"></div>
+    <div class="cta-content">
+      <div class="section-label light">Get In Touch</div>
+      <h2>Ready to Build Something <em>Great?</em></h2>
+      <p>Tell us about your project and we'll get back to you within 24 hours.</p>
+
+      <form class="contact-form" onsubmit="return false;">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" placeholder="Alex Johnson" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="alex@company.com" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="msg">Tell us about your project</label>
+          <textarea id="msg" rows="4" placeholder="We're looking to rebuild our platform with..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary full">
+          Send Message <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ░░░ FOOTER ░░░ -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-icon"><i class="fa-solid fa-bolt-lightning"></i></span>
+          Pixel<span>Forge</span>
+        </a>
+        <p>Crafting digital experiences that inspire and deliver measurable results for businesses worldwide.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#about">About Us</a>
+        <a href="#features">Services</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <a href="#">Web Development</a>
+        <a href="#">Mobile Apps</a>
+        <a href="#">Cloud Services</a>
+        <a href="#">UI/UX Design</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@pixelforge.io"><i class="fa-solid fa-envelope"></i> hello@pixelforge.io</a>
+        <a href="#"><i class="fa-solid fa-phone"></i> +1 (415) 000-0000</a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i> San Francisco, CA</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 PixelForge Inc. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Smooth scroll -->
+  <style>html { scroll-behavior: smooth; }</style>
+
+</body>
+</html>
